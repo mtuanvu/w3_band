@@ -1,0 +1,46 @@
+/*reset css*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+
+#nav {
+
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: normal;
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#silder{
+
+}
+
+#cont{
+
+}
+
+#foot{
+ 
+}

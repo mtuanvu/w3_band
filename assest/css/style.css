@@ -1,16 +1,18 @@
-/*reset css*/
-
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-#main{
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
 
 }
 
-#header{
+#header {
     height: 46px;
     background-color: #000;
 }
@@ -26,21 +28,28 @@
 #nav li a {
     color: #fff;
     text-decoration: none;
-    line-height: normal;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
 }
 
 #nav .subnav {
     display: none;
 }
 
-#silder{
+#silder {
 
 }
 
-#cont{
+#content{
 
 }
 
-#foot{
- 
+#footer {
+
 }
